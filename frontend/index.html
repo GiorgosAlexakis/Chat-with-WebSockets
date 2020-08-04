@@ -14,13 +14,18 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
 <div class="container clearfix">
+
     <div class="people-list" id="people-list">
         <div class="search">
-            <input id="userName" placeholder="search" type="text"/>
-            <button onclick="registration()">Enter the chat</button>
+            <h1>Chat Appathon</h1>
+            <input id="userName" placeholder="Insert Username" type="text"/>
+            <input id="Language" placeholder="Insert Language Code" type="text"/>
+            <button onclick="registration()">Register</button>
             <button onclick="fetchAll()">Refresh</button>
         </div>
+        <h2>Conversations</h2>
         <ul class="list" id="usersList">
 
 
@@ -30,7 +35,7 @@
     <div class="chat">
         <div class="chat-header clearfix">
             <img alt="avatar" height="55px"
-                 src="https://rtfm.co.ua/wp-content/plugins/all-in-one-seo-pack/images/default-user-image.png"
+                 src="./images/user.png"
                  width="55px"/>
 
             <div class="chat-about">

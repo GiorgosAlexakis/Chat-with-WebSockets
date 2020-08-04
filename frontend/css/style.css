@@ -5,36 +5,43 @@
 }
 
 body {
-    background: #C5DDEB;
     font: 14px/20px "Lato", Arial, sans-serif;
-    padding: 40px 0;
     color: white;
+    width: 100%;
+    margin:auto;
+    background: #424040;
 }
 
 .container {
-    margin: 0 auto;
-    width: 750px;
-    background: #444753;
-    border-radius: 5px;
+    width: 100%;
+    height: 100%;
 }
 
 .people-list {
-    width: 260px;
+    width:20%;
+    height:80%;
     float: left;
+    padding: 20px 20px 30px 10px;
+
 }
 
+
 .people-list .search {
-    padding: 20px;
+
+    height:fit-content;
+    padding-bottom:15px;
 }
 
 .people-list input {
     border-radius: 3px;
     border: none;
     padding: 14px;
-    color: #e1e1e1;
-    background: #6A6C75;
-    width: 90%;
+    color: #1e1e1e;
+    margin:2px;
+    background: #ffffff;
+    width: 100%;
     font-size: 14px;
+    overflow-y: scroll;
 }
 
 .people-list .fa-search {
@@ -44,11 +51,14 @@ body {
 
 .people-list ul {
     padding: 20px;
-    height: 770px;
+    height: 88%;
+    overflow-y: scroll;
 }
 
 .people-list ul li {
     padding-bottom: 20px;
+    height:20%;
+    color:white;
 }
 
 .people-list img {
@@ -69,17 +79,17 @@ body {
 }
 
 .chat {
-    width: 490px;
+    width: 80%;
     float: left;
-    background: #F2F5F8;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #434651;
+    background: white;
 }
 
 .chat .chat-header {
     padding: 20px;
-    border-bottom: 2px solid white;
+    height:12%;
+    color: #292929;
+
+    border-radius: 15px 15px 15px 15px;
 }
 
 .chat .chat-header img {
@@ -101,22 +111,17 @@ body {
     color: #92959E;
 }
 
-.chat .chat-header .fa-star {
-    float: right;
-    color: #D8DADF;
-    font-size: 20px;
-    margin-top: 12px;
-}
 
 ul {
     list-style-type: none;
 }
 
 .chat .chat-history {
-    padding: 30px 30px 20px;
-    border-bottom: 2px solid white;
+    background: white;
+    background: #eeeeee;
     overflow-y: scroll;
-    height: 575px;
+    height: 70%;
+
 }
 
 .chat .chat-history .message-data {
@@ -136,6 +141,7 @@ ul {
     border-radius: 7px;
     margin-bottom: 30px;
     width: 90%;
+    height:auto;
     position: relative;
 }
 
@@ -236,5 +242,6 @@ ul {
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0;
+    border-radius:15px 15px 15px 15px;
+
 }
